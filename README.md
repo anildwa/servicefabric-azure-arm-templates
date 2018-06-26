@@ -16,6 +16,8 @@ This template has the following configurations
 
 
 - Multiple Node Type Loops using loop index. Use the loopCount parameter
+- Azure Standard Load Balancer with public endpoints
+- Internal Load Balancer with Basic SKU for internal IP
 - Enables Accelerated networking. Please refer to [this](https://docs.microsoft.com/en-us/azure/virtual-network/create-vm-accelerated-networking-cli)
 - OMS workspace
 - Nodetype with index 0 will not have public endpoints. The other node type will each have a public endpoint
