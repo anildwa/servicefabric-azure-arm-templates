@@ -4,21 +4,21 @@
     "parameters": {
         "clusterLocation": {
             "type": "string",
-            "defaultValue": "southeastasia",
+            "defaultValue": "",
             "metadata": {
                 "description": "Location of the Cluster"
             }
         },
         "clusterName": {
             "type": "string",
-            "defaultValue": "anildwasf448",
+            "defaultValue": "",
             "metadata": {
                 "description": "Name of your cluster - Between 3 and 23 characters. Letters and numbers only"
             }
         },
         "vnetName": {
             "type": "string",
-            "defaultValue": "advnet",
+            "defaultValue": "",
             "metadata": {
                 "description": "Name of Existing Vnet."
             }
@@ -39,7 +39,7 @@
         },
         "clientCertificateStoreValue": {
             "type": "string",
-            "defaultValue": "e0a2a95a5701db754357712c67bcb24699d0b62d",
+            "defaultValue": "",
             "metadata": {
                 "description": "Client Certificate Thumbprint"
             }
@@ -56,21 +56,21 @@
         },
         "certificateThumbprint": {
             "type": "string",
-            "defaultValue": "3B216BD748545BF017A12E6F6153C6349F20E4C1",
+            "defaultValue": "",
             "metadata": {
                 "description": "Certificate Thumbprint"
             }
         },
        "adminUserName": {
             "type": "string",
-            "defaultValue": "anildwa",
+            "defaultValue": "",
             "metadata": {
                 "description": "ssh user Id"
             }
         },
         "adminPassword": {
             "type": "securestring",
-            "defaultValue": "Treetop@1234",
+            "defaultValue": "",
             "metadata": {
                 "description": "ssh password"
             }
@@ -105,14 +105,14 @@
         },
         "sourceVaultValue": {
             "type": "string",
-            "defaultValue": "/subscriptions/3e0e14b3-7e28-4da7-97de-0f5cb324f030/resourceGroups/keyvault/providers/Microsoft.KeyVault/vaults/anildwakeyvault",
+            "defaultValue": "",
             "metadata": {
                 "description": "Resource Id of the key vault, is should be in the format of /subscriptions/<Sub ID>/resourceGroups/<Resource group name>/providers/Microsoft.KeyVault/vaults/<vault name>"
             }
         },
         "certificateUrlValue": {
             "type": "string",
-            "defaultValue": "https://anildwakeyvault.vault.azure.net/secrets/anildwa-sf-88/e68cec372b27400b8e3f61166eb6897f",
+            "defaultValue": "",
             "metadata": {
                 "description": "Refers to the location URL in your key vault where the certificate was uploaded, it is should be in the format of https://<name of the vault>.vault.azure.net:443/secrets/<exact location>"
             }
